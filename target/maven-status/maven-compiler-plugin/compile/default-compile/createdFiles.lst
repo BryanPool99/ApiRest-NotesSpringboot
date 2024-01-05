@@ -1,0 +1,16 @@
+com\bryan\backend\controller\NoteController.class
+com\bryan\backend\model\Note.class
+com\bryan\backend\service\CategoryServiceImpl.class
+com\bryan\backend\service\NoteService.class
+com\bryan\backend\controller\CategoryController.class
+com\bryan\backend\BackendApplication.class
+com\bryan\backend\service\NoteCategoryService.class
+com\bryan\backend\repository\NoteCategoryRepository.class
+com\bryan\backend\service\NoteServiceImpl.class
+com\bryan\backend\model\NoteCategory.class
+com\bryan\backend\controller\NoteCategoryController.class
+com\bryan\backend\repository\NoteRepository.class
+com\bryan\backend\model\Category.class
+com\bryan\backend\repository\CategoryRepository.class
+com\bryan\backend\service\NoteCategoryServiceImp.class
+com\bryan\backend\service\CategoryService.class
