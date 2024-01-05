@@ -3,16 +3,12 @@ FROM maven:3.8.4-openjdk-17-slim AS build
 
 WORKDIR /app
 
-COPY pom.xml .
+COPY . .
 
-RUN mvn dependency:go-offline
-
-COPY src ./src
-
-RUN mvn package -DskipTests
+RUN mvn clean install -DskipTests
 
 # Etapa de producción
-FROM maven:3.8.4-openjdk-17-slim
+FROM openjdk:17-jre-slim
 
 WORKDIR /app
 
