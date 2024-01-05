@@ -12,7 +12,7 @@ COPY src ./src
 RUN mvn package -DskipTests
 
 # Etapa de producción
-FROM adoptopenjdk:17-jre-hotspot
+FROM maven:3.8.4-openjdk-17-slim
 
 WORKDIR /app
 
